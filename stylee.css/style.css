@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ==============================start genrail css style=============================== */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.bd-y{
+    padding:100px;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* ==============================end genrail css style=============================== */
+/* ==============================start navbar section=============================== */
+.navbar{
+    position: fixed;
+    z-index: 2;
+    padding: 30px 0;
+    width: 100%;
+}
+.navbar-section .container{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.logo{
+width: 75%;
+}
+.navbar img{
+    margin-left:150px;
+    width: 150px;
+    height:45px;
+
+}
+.navbar-collapse{
+    margin-right: 150px;
+}
+.navbar-nav{
+
+width: 25%;
+}
+.navbar .nav-item{
+
+    padding: 0 15px;
+}
+.nav-item .nav-link{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff !important;
+}
+.navbar .nav-item i{
+    font-weight: 100px;
+}
+
+/* ==============================end navbar section=============================== */
+/* ==============================start header section=============================== */
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, .1);
+}
+.header-item{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    -webkit-transform: translate(-50% ,-50%);
+    -moz-transform: translate(-50% ,-50%);
+    -ms-transform: translate(-50% ,-50%);
+    -o-transform: translate(-50% ,-50%);
+}
+.header-item h1{
+    margin-top: 60px;
+    margin-bottom: 18px;
+line-height: 1.2em;
+color: #fff;
+font-size: 76px;
+font-weight: 400;
+font-family: 'Roboto', sans-serif;
+
+}
+.header-item p{
+    color: rgba(255,255,255,.92);
+    font-size: 22px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: 'Open Sans',arial;
+font-weight: 400
+}
+.btn{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding:16px 30px ;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Open Sans',arial;
+    letter-spacing: .2px;
+    font-weight: 700;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+ .btn.real{
+    background-color: #4274b7;
+    color: #fff;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.header-item .real:hover{
+    background-color: #fff;
+    color: #000;
+}
+.header-item .ml-2{
+    background-color: #fff;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.header-item .ml-2:hover{
+background-color:rgb(235, 235, 235) ;
+}
+.header-item .anm{
+    position: absolute;
+    top:140%;
+    left: 55%;
+    transform: translate(-140% , -45%);
+    width: 38px;
+    height: 60px;
+    border: 2px solid #fff;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-transform: translate(-140% , -45%);
+    -moz-transform: translate(-140% , -45%);
+    -ms-transform: translate(-140% , -45%);
+    -o-transform: translate(-140% , -45%);
+}
+.header-item .anm .point{
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform: translate();
+    -moz-transform: translate();
+    -ms-transform: translate();
+    -o-transform: translate();
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    touch-action: manipulation;
+    animation-name: en;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes en{
+    0%{ top: 10%;}
+    25%{top: 20%;}
+    50%{top: 30%;}
+    100%{top: 40%;}
+}
+/* ==============================end header section=============================== */
+/* ==============================start about section=============================== */
+.about-item{
+    position: relative;
+
+}
+.about-item i{
+color: #686868;
+    font-size: 28px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    transform: translate(-10% ,0);
+    -webkit-transform: translate(-10% ,0);
+    -moz-transform: translate(-10% ,0);
+    -ms-transform: translate(-10% ,0);
+    -o-transform: translate(-10% ,0);
+}
+.about-item h5{
+    padding-left: 50px;
+    font-size: 17px;
+    margin-bottom: 7px;
+    font-family: "Roboto";
+font-weight: 500;
+color: #303030;
+line-height: 1.38em;
+letter-spacing: .5px;
+}
+.about-item p{
+    padding-left: 50px;
+    color: #888;
+    font-size: 15px;
+    opacity: 1;
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+font-weight: 400;
+}
+/* ==============================end about section=============================== */
+/* ==============================start who section=============================== */
+.who{
+    background-color: #f8f8f9;
+}
+.item-info{
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.heading h3{
+    font-family: "Roboto";
+font-weight: 500;
+font-size: 28px;
+color: #303030;
+line-height: 1.38em;
+margin-bottom: 25px;
+}
+.heading p{
+    font-size: 15px;
+line-height: 1.86em;
+font-family: 'Open Sans',arial;
+font-weight: 400;
+color: #686868;
+margin-bottom: 30px;
+}
+.item-info ul li i{
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: #4274b7;
+    font-weight:900;
+}
+.item-info ul li span{
+    margin-left:20px ;
+    font-size: 15px;
+line-height: 1.86em;
+font-family: 'Open Sans',arial;
+font-weight: 400;
+color: #686868;
+margin-bottom: 18px;
+}
+.item-info .btn{
+    color: #fff;
+    background-color: #4274b7;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.item-info .btn:hover{
+    background-color: #333;
+}
+/* ==============================end who section=============================== */
+/* =============================estart service section=============================== */
+.service{
+    background-color: #f8f8f9;
+}
+.service .heading{
+    text-align: center;
+}
+.service .heading i{
+    color: #4274b7;
+    margin-bottom: 10px;
+}
+.service .heading h3{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.service .heading p{
+    font-size: 17px;
+    letter-spacing: .5px;
+    margin-bottom: 100px;
+}
+.service-item{
+text-align: center;
+}
+.service-item i{
+    font-size: 20px;
+    background-color: #4274b7;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 25px;
+}
+.service-item h5{
+    margin-bottom: 11px;
+font-size: 17px;
+font-family: "Roboto";
+font-weight: 500;
+color: #303030;
+line-height: 1.38em
+}
+
+.service-item p{
+    font-size: 15px;
+    color: #888;
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+font-weight: 400;
+}
+/* =============================end service section=============================== */
+/* =============================start carsoul section=============================== */
+
+.carousel-item{
+    width: 100% !important;
+    height: 500px;
+    background-image: url(../image/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item .over-lay-1{
+    width: 100% !important;
+    height: 500px;
+    background-color: #4275b7da;
+    position: relative;
+}
+.carousel-item .carousel-caption {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+
+}
+.carousel-item .carousel-caption i {
+margin-bottom: 35px;
+}
+.carousel-item .carousel-caption p{
+    font-family: 'Open Sans',arial;
+font-weight: 400;
+color: rgba(255,255,255,.92);
+font-size: 23px;
+margin-bottom: 60px;
+}
+.carousel-item .carousel-caption h6{
+    line-height: 1.86em;
+font-family: 'Open Sans',arial;
+font-weight: 400;
+font-size: 1.08em;
+}
+/* =============================end carsoul section=============================== */
+/* =============================start loction section=============================== */
+.loction-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around ;
+}
+.loction-item img{
+    width: 15%;
+height: 25%;
+}
+/* =============================end loction section=============================== */
+/* =============================start buy section=============================== */
+.buy{
+    background-color:#f8f8f9 ;
+}
+.buy .heading{
+text-align: center;
+
+}
+.buy .heading h3{
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+.buy .heading p{
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.buy .heading .btn{
+    background-color: #4274b7;
+    padding: 20px ;
+    color: #fff;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.buy .heading .btn:hover{
+background-color: #333;
+
+}
+/* =============================end buy section=============================== */
+/* =============================start footer section=============================== */
+.footer{
+    background-color:#162231 ;
+}
+.footer-item h4{
+    font-size: 17px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 1.38em;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer-item p , li{
+    color: #58606b;
+    font-size: 14px;
+    line-height: 2em;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+}
+
+/* =============================end footer section=============================== */
+/* =============================start feet section=============================== */
+.feet{
+    background-color:#121b25 ;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 33px;
+    top: 50%;
+    color: #58606b;
+font-size: 14px;
+line-height: 2em;
+font-family: 'Open Sans',arial;
+font-weight: 400;
+letter-spacing: 1px;
+}
+/* =============================end feet section=============================== */
